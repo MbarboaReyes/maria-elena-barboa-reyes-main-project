@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--its good to have your links under your meta and inside your head-->
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--css style sheet-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+
+
+<body>
+
+
+<!--NAVBAR-->
+<div class="container p-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mp-4">
+            <!--About me-->
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <!--About the animals-->
+            <li class="nav-item">
+                <a class="nav-link" href="#my-animals">About The Animals</a>
+            </li>
+            <!--About Small Successes-->
+            <li class="nav-item active">
+                <a class="nav-link" href="#my-small-successes">My Small Successes</a>
+            </li>
+            <!--Contact me-->
+            <li class="nav-item">
+                <a class="nav-link active" href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--<img src="documentation/image/sugarandchickens.jpg" alt="horse" width="100%" height="100%" class="horse">-->
+<!--colors to look at: Green, quiet and restful, blue helps for stress management, and purple represent strength, wisdom and peace-->
+
+
+<!--About me section-->
+<!--<a class="nav-link" href="#about-me">About Me</a> line 43-->
+<!--<section class="chicken" id="about-me">-->
+
+<section class="chicken" id="about-me" style="">
+    <div class="container ">
+        <div class="row gx-5">
+            <div class="col">
+        <h1>About Me</h1>
+                    <div class="container">
+                <img src="documentation/image/sugarandchickens.jpg" alt="horse" class="aboutme" height="100px" width="100px" >
+                    <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid autem beatae dicta dolore dolorum eligendi enim eum exercitationem necessitatibus, placeat possimus qui quidem reprehenderit sunt tempora velit veritatis voluptates.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, exercitationem, suscipit? A aliquam architecto consequuntur culpa enim eos est ipsum iusto nisi perferendis quam saepe ullam ut, veritatis voluptate! Officiis?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi autem corporis cupiditate, deserunt dicta eaque exercitationem expedita ipsum iste nam nulla officia optio provident voluptates. Consequatur magni nam numquam.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</section>
+
+
+<section id="my-animals">
+    <!--navbar my animals-->
+    <div class="container">
+    <h6>My Animals</h6>
+
+    <img src="documentation/image/sugarandchickens.jpg" height="100px" width="100px">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
+    </div>
+</section>
+
+
+<section id="my-small-successes" class="container">
+    <img src="documentation/image/sugarandchickens.jpg" height="100px" width="100px">
+    <h6>My Small Successes</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias architecto dolor, eius fugiat in ipsam itaque laudantium molestiae, officia pariatur perferendis placeat quis, reprehenderit sequi vel veniam voluptatum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
+</section>
+
+<section id="contact-me" class="container">
+    <!--grid system we are using colomes within rows. do name and email and subject will be in one coloume. Message will be in the other colume. -->
+    <h6>Contact Me</h6>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextareeaa1" class="form-label">Your message to me</label>
+        <textarea class="form-control" id="exampleFormControlTextareeaa1" rows="3"></textarea>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">SUBMIT!</button>
+    </div>
+</section>
+
+<!--Footer-->
+
+<!--popper.js and javascript-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+<!--second, reference my bootstrap/css as much as i need to-->
+<!--Layout the about me col's in bootstrap so that everything stacks properly-->
+<!--Try to get as much done for landing as much as possoble, (learn how to put text on a photo) get it the proper size. style the photo. PUT TEXT ON A BACKGROUND PHOTO-->
+<!--last thing is start filling out as much of my sections as much as posible)-->
+<!--use bootstrap to make forms so people can interact with-->

@@ -1,0 +1,22 @@
+.blue {
+    background-color: lightblue;
+}
+
+body {
+    font-family: 'Comforter', cursive;
+    background-color: lightblue;
+    background-position: center;
+}
+
+.horse {
+    background: url("documentation/image/sugarandchickens.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+
+.chicken{
+    color: rebeccapurple;
+}

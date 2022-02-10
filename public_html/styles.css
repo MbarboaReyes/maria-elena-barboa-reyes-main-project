@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Comforter', cursive;
+    font-size: 1.5em;
     background-color: lightblue;
     background-position: center;
 }
@@ -16,7 +17,23 @@ body {
     width: 100%;
 }
 
+.contact-me{
+    display: inline-block;
+
+}
 
 .chicken{
     color: rebeccapurple;
+    background-position: center;
+    justify-content: flex-end;
+}
+
+my-animals{
+    color: lightgreen;
+    text-align: justify-all;
+    justify-content: flex-start;
+}
+.contact-me{
+    display: grid;
+    grid-template-columns: fit-content();
 }

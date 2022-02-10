@@ -26,7 +26,7 @@
 </head>
 
 
-<body>
+<body class="body">
 
 
 <!--NAVBAR-->
@@ -70,29 +70,27 @@
 <!--<section class="chicken" id="about-me">-->
 
 <section class="chicken" id="about-me" style="">
-    <div class="container ">
-        <div class="row gx-5">
+    <div class="row m-5 p-0">
             <div class="col">
         <h1>About Me</h1>
-                    <div class="container">
+                    <div class="fit-picture">
                 <img src="documentation/image/sugarandchickens.jpg" alt="horse" class="aboutme" height="100px" width="100px" >
                     <div class="col">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid autem beatae dicta dolore dolorum eligendi enim eum exercitationem necessitatibus, placeat possimus qui quidem reprehenderit sunt tempora velit veritatis voluptates.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, exercitationem, suscipit? A aliquam architecto consequuntur culpa enim eos est ipsum iusto nisi perferendis quam saepe ullam ut, veritatis voluptate! Officiis?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi autem corporis cupiditate, deserunt dicta eaque exercitationem expedita ipsum iste nam nulla officia optio provident voluptates. Consequatur magni nam numquam.</p>
-
                     </div>
                 </div>
 
             </div>
-        </div>
+    </div>
 </section>
 
 
 <section id="my-animals">
     <!--navbar my animals-->
     <div class="container">
-    <h6>My Animals</h6>
+    <h1>My Animals</h1>
 
     <img src="documentation/image/sugarandchickens.jpg" height="100px" width="100px">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
@@ -102,27 +100,34 @@
 
 
 <section id="my-small-successes" class="container">
+    <h1>My Small Successes</h1>
+    <div class="d-flex justify-content-between">
     <img src="documentation/image/sugarandchickens.jpg" height="100px" width="100px">
-    <h6>My Small Successes</h6>
+    </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias architecto dolor, eius fugiat in ipsam itaque laudantium molestiae, officia pariatur perferendis placeat quis, reprehenderit sequi vel veniam voluptatum!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
 </section>
 
+
 <section id="contact-me" class="container">
     <!--grid system we are using colomes within rows. do name and email and subject will be in one coloume. Message will be in the other colume. -->
-    <h6>Contact Me</h6>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Name</label>
-        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="">
+    <h1>Contact Me</h1>
+    <!--Name-->
+    <div class="d-flex justify-content-between">
+        <label for="exampleFormControlInput1" class="form-label m-4 p-0">Name:</label>
+        <input type="email" class="form-control m-1 p-1" id="exampleFormControlInput2" placeholder="">
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <!--Email Address-->
+    <div class="d-flex justify-content-between">
+        <label for="exampleFormControlInput1" class="form-label m-4 p-0">Email address</label>
+        <input type="email" class="form-control m-1 p-1" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
-    <div class="mb-3">
+    <!--Message-->
+    <div class="d-flex justify-content-between">
         <label for="exampleFormControlTextareeaa1" class="form-label">Your message to me</label>
         <textarea class="form-control" id="exampleFormControlTextareeaa1" rows="3"></textarea>
     </div>
+    <!--Button-->
     <div class="col-auto">
         <button type="submit" class="btn btn-primary mb-3">SUBMIT!</button>
     </div>

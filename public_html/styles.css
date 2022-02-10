@@ -1,3 +1,10 @@
+.landing-page{
+    color: mediumpurple;
+    background-image: url("documentation/image/sugarandchickens.jpg");
+    background-size: 50%;
+
+},
+
 .blue {
     background-color: lightblue;
 }
@@ -37,5 +44,4 @@ body {
 }
 .contact-me{
     display: grid;
-    grid-template-columns: fit-content();
 }

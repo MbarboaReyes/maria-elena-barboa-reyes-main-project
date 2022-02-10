@@ -1,6 +1,9 @@
 .blue {
     background-color: lightblue;
 }
+h1{
+    color: green;
+}
 
 body {
     font-family: 'Comforter', cursive;
@@ -24,11 +27,10 @@ body {
 
 .chicken{
     color: rebeccapurple;
-    background-position: center;
     justify-content: flex-end;
 }
 
-my-animals{
+.horse{
     color: lightgreen;
     text-align: justify-all;
     justify-content: flex-start;

@@ -1,23 +1,22 @@
+body {
+    background-image: url("./photos/sugars-ears.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
 .landing-page{
     color: mediumpurple;
-    background-image: url("documentation/image/sugarandchickens.jpg");
-    background-size: 50%;
-
+    background-color: black;
+    background-size: auto;
 }
 
-.blue {
-    background-color: deepskyblue;
-}
 h1{
     color: green;
 }
 
-body {
-    font-family: 'Comforter', cursive;
-    font-size: 1.5em;
-    background-color: deepskyblue;
-    background-position: center;
-}
 
 .horse {
     background: url("documentation/image/sugarandchickens.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);

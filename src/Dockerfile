@@ -11,6 +11,5 @@ COPY tsconfig.json ./
 COPY package.json package-lock.json ./
 RUN chown -R node:node ./
 USER node
-
 RUN npm install --no-optional && npm cache clean --force
 CMD ["npm", "run", "dev"]

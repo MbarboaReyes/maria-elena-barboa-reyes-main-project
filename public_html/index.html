@@ -31,7 +31,7 @@
 
 <!--NAVBAR-->
 <div class="container p-1">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +67,7 @@
     <div class="container">
         <div class="row align-items-center p-5">
             <div class="col-md-8 p-5">
-                <p>Maria Elena Barboa-Reyes</p>
+                <h1>Maria Elena Barboa-Reyes</h1>
                 <p>Jr. Web Developer looking for a position with top company skills</p>
             </div>
         </div>
@@ -81,7 +81,7 @@
             <h1>Skill</h1>
             <div class="fit-picture">
                 <div class="col-2">
-                    <img src="photos/sugars-ears.jpg" alt="horse" class="aboutme" height="100px" width="100px" >
+                    <img src="photos/maria.jpg" alt="me" class="aboutme" height="100px" width="100px">
                 </div>
                 <div class="col-10">
                     <ul>
@@ -105,14 +105,21 @@
     <!--navbar my animals-->
     <div class="container">
         <h1>Experience</h1>
-        <img src="documentation/image/sugarandchickens.jpg" height="100px" width="100px">
-        <dl>
-            <dt>Waste Management</dt>
-            <dt>Residential Trash Pickup Driver</dt>
-                <dd>Ensured Compliance by obtaining and maintaining proper delivery authorization and pickup documentation.</dd>
-                <dd>Operated safely and consistently by conducting DOT and company rules and safety standers.</dd>
-        </dl>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
+        <img src="photos/sugar-me.jpg" height="100px" width="100px">
+        <h5>Waste Management Rio Rancho, NM.</h5>
+        <h6>Residential Trash pickup Driver</h6>
+        <ul>
+            <li>Ensured compliance by obtaining and maintaining proper delivery authorization and pickup documentation.</li>
+            <li>Operated safely and consistently by conducting DOT and company rules and safety standers.</li>
+        </ul>
+        <h5>School Bus Driver</h5>
+        <h6>Herrera School Buses and Coaches Inc. Albuquerque, NM</h6>
+        <ul>
+            <li>Maintained timely to schedules and safety protocols</li>
+            <li>Performed all duties with personable communication and professionalism including bus operation and passenger interaction.</li>
+        </ul>
+        <h5>Driver Operator</h5>
+        <h6>Expo New Mexico</h6>
     </div>
 </section>
 
@@ -126,31 +133,47 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolor, doloribus eaque earum, eos eum facilis fugit iste laboriosam minima molestiae necessitatibus nihil non possimus quibusdam quis saepe vero, voluptatem.</p>
 </section>
 
-
+<!--grid system we are using colomes within rows. do name and email and subject will be in one coloume. Message will be in the other colume. -->
 <section id="contact-me" class="container">
-    <!--grid system we are using colomes within rows. do name and email and subject will be in one coloume. Message will be in the other colume. -->
-    <h1>Contact Me</h1>
-    <!--Name-->
-    <div class="d-flex justify-content-between">
-        <label for="name" class="form-label m-4 p-1">Name:</label>
-        <input name="name" type="text" class="form-control m-4 p-0" id="name" placeholder="">
+    <div class="row bg-info">
+    <form action="./apis/" id="contact" method="post" novalidate>
+        <div class="contact">
+        <h1>Contact Me</h1>
+        <!--Name-->
+        <div class="">
+            <label for="name" class="form-label m-4 p-1">Name:</label>
+            <input name="name" type="text" class="form-control" id="name" placeholder="Type your Name here">
+        </div>
     </div>
     <!--Email Address-->
-    <div class="d-flex justify-content-between">
-        <label for="email" class="form-label m-4 p-1">Email address</label>
-        <input name ="email" type="email" class="form-control m-auto p-auto" id="email" placeholder="name@example.com">
-    </div>
+        <div class="form-group">
+            <label for="email" class="form-label m-4 p-1">Email address</label>
+            <div class="input-group-prepend"></div>
+            <input name="email" type="email" class="form-control m-auto p-auto" id="email" placeholder="name@example.com">
+        </div>
+        <!--Subject-->
+        <div class="form-group">
+            <label for="subject" class="form-label m-4 p-1">Subject</label>
+            <div class="input-group-prepend"></div>
+            <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
     <!--Message-->
-    <div class="d-flex justify-content-between">
-        <label for="message" class="form-label m-4 p-auto">Your message to me</label>
-        <textarea name ="message" class="form-control" id="message" rows="3"></textarea>
-    </div>
-    <div class="g-recaptcha" data-sitekey="6LepxnoeAAAAAOjLnZMfIdJIsmO0gHn7LWAli1up"></div>
+        <div class="form-group">
+            <label for="message" class="form-label m-4 p-auto">Your message to me</label>
+            <div class="input-group-prepend"></div>
+            <textarea name="message" class="form-control" id="message" placeholder="Your Message (2000 characters max)" rows="3"></textarea>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LepxnoeAAAAAOjLnZMfIdJIsmO0gHn7LWAli1up"></div>
     <!--Button-->
-    <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">SUBMIT!</button>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">SUBMIT!</button>
+            <button type="reset" class="btn btn-primary mb-3">RESET</button>
+        </div>
+    </form>
     </div>
-</section>
+    <div id="output-area">
+    </div>
+</section>-->
 
 <!--Footer-->
 

@@ -2,19 +2,20 @@ body {
     background-image: url("./photos/sugars-ears.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
     font-family: 'Akaya Telivigala', cursive;
 }
 
 .landing-page{
-    color: mediumpurple;
-    background-color: black;
-    background-size: auto;
+    color: aqua;
+    font-weight: bold;
+    font-size: x-large;
+    font-size-adjust: inherit;
 }
 
 h1{
-    color: green;
+    color: deeppink;
 }
 
 
@@ -26,10 +27,6 @@ h1{
     width: 100%;
 }
 
-.contact-me{
-    display: inline-block;
-
-}
 
 .chicken{
     color: rebeccapurple;
@@ -42,5 +39,6 @@ h1{
     justify-content: flex-start;
 }
 .contact-me{
+    color: aqua;
     display: grid;
 }

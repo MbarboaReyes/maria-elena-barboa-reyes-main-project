@@ -5,40 +5,40 @@ body {
     background-size: cover;
     background-position: bottom;
     font-family: 'Akaya Telivigala', cursive;
+    text-shadow: darkgoldenrod 4px 4px  20px, goldenrod  -4px -4px 20px;
 }
 
+
 .landing-page{
-    color: aqua;
+    color: black;
     font-weight: bold;
     font-size: x-large;
     font-size-adjust: inherit;
 }
 
-h1{
-    color: deeppink;
+/*skill container*/
+.skills{
+    color: black;
+    margin: auto;
+    text-align: left;
 }
-
+.my-head{
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+}
 
 .horse {
-    background: url("documentation/image/sugarandchickens.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
-    display: block;
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
-
-
-.chicken{
-    color: rebeccapurple;
-    justify-content: flex-end;
-}
-
-.horse{
-    color: lightgreen;
     text-align: justify-all;
     justify-content: flex-start;
 }
-.contact-me{
-    color: aqua;
+.contact-me {
     display: grid;
+}
+.img{
+    height: 200px;
+    width: auto;
+}
+.experience{
+
 }

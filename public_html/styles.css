@@ -14,23 +14,23 @@ body {
     font-weight: bold;
     font-size: x-large;
     font-size-adjust: inherit;
+    text-align: center;
 }
 
 /*skill container*/
 .skills{
     color: black;
-    margin: auto;
+    /*margin: auto;*/
     text-align: left;
+
 }
 .my-head{
-    border-radius: 50%;
-    text-align: center;
-    float: right;
+    border: 3px solid black;
 }
 
 .horse {
-    text-align: justify-all;
-    justify-content: flex-start;
+    /*text-align: justify-all;
+    justify-content: flex-start;*/
 }
 .contact-me {
     display: grid;

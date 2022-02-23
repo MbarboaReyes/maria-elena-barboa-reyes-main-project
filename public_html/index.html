@@ -34,24 +34,24 @@
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mp-4">
-            <!--About me-->
+                    <!--About me-->
                     <li class="nav-item">
                         <a class="nav-link" href="#about-me">Skills</a>
                     </li>
-            <!--About the animals-->
+                    <!--About the animals-->
                     <li class="nav-item">
                         <a class="nav-link" href="#my-animals">Experience</a>
                     </li>
-            <!--About Small Successes-->
+                    <!--About Small Successes-->
                     <li class="nav-item active">
                         <a class="nav-link" href="#my-small-successes">Education and Training</a>
                     </li>
-            <!--Contact me-->
+                    <!--Contact me-->
                     <li class="nav-item">
                         <a class="nav-link active" href="#contact-me">Contact Me</a>
                     </li>
@@ -64,12 +64,10 @@
 
 <!--JumboTon-->
 <section class="landing-page">
-    <div class="">
-        <div class="row align-items-center p-1">
-            <div class="col-md-8 p-5">
+    <div class="container-fluid justify-content-center p-1">
+            <!--<div class="col-md-8 p-5 justify-content-center">-->
                 <h1>Maria Elena Barboa-Reyes</h1>
                 <p>Jr. Web Developer looking for a position with top company skills</p>
-            </div>
         </div>
     </div>
 </section>
@@ -85,11 +83,11 @@
                 </div>
                 <div class="">
                     <p>Documentation Skills</p>
-                        <p>Assisting Customers</p>
-                        <p>Tractor Trailer experience</p>
-                        <p>Over the road hauling Experience</p>
-                        <p>Up-to-date Class A CDL</p>
-                        <p>Map reading and navigation skills.</p>
+                    <p>Assisting Customers</p>
+                    <p>Tractor Trailer experience</p>
+                    <p>Over the road hauling Experience</p>
+                    <p>Up-to-date Class A CDL</p>
+                    <p>Map reading and navigation skills.</p>
                     </ul>
                 </div>
             </div>
@@ -102,6 +100,7 @@
 <section id="experience">
     <div class="experience">
         <h1>Experience</h1>
+
         <img class="m-5" src="photos/trucks.jpg">
         <h5>Waste Management Rio Rancho, NM.</h5>
         <h6>Residential Trash pickup Driver</h6>
@@ -117,10 +116,10 @@
         </ul>
         <h5>Driver Operator</h5>
         <h6>Expo New Mexico. Albuquerque.</h6>
-            <ul>
-                <li>Consulted with supervisors and dispatch personnel to assess situations, determine appropriate solutions and make decisions.</li>
-                <li>Inspected my equipment before and after use.</li>
-            </ul>
+        <ul>
+            <li>Consulted with supervisors and dispatch personnel to assess situations, determine appropriate solutions and make decisions.</li>
+            <li>Inspected my equipment before and after use.</li>
+        </ul>
         <h5>Sales Associate</h5>
         <h6>Boot Barn. Albuquerque, NM.</h6>
         <ul>
@@ -161,42 +160,42 @@
 <!--grid system we are using colomes within rows. do name and email and subject will be in one coloume. Message will be in the other colume. -->
 <section id="contact-me" class="container">
     <div class="row">
-    <form action="./apis/" id="contact" method="post" novalidate>
-        <div class="contact">
-        <h1>Contact Me</h1>
-        <!--Name-->
-        <div class="">
-            <label for="name" class="form-label m-4 p-1">Name:</label>
-            <input name="name" type="text" class="form-control" id="name" placeholder="Type your Name here">
-        </div>
-    </div>
-    <!--Email Address-->
-        <div class="form-group">
-            <label for="email" class="form-label m-4 p-1">Email address</label>
-            <div class="input-group-prepend"></div>
-            <input name="email" type="email" class="form-control m-auto p-auto" id="email" placeholder="name@example.com">
-        </div>
-        <!--Subject-->
-        <div class="form-group">
-            <label for="subject" class="form-label m-4 p-1">Subject</label>
-            <div class="input-group-prepend"></div>
-            <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
-        </div>
-    <!--Message-->
-        <div class="form-group">
-            <label for="message" class="form-label m-4 p-auto">Your message to me</label>
-            <div class="input-group-prepend"></div>
-            <textarea name="message" class="form-control" id="message" placeholder="Your Message (2000 characters max)" rows="3"></textarea>
-        </div>
-        <div class="g-recaptcha" data-sitekey="6LepxnoeAAAAAOjLnZMfIdJIsmO0gHn7LWAli1up"></div>
-    <!--Button-->
-        <div class="col-auto">
-            <div id="output-area">
-            <button type="submit" class="btn btn-primary mb-3">SUBMIT!</button>
-            <button type="reset" class="btn btn-primary mb-3">RESET</button>
+        <form action="./apis/" id="contact" method="post" novalidate>
+            <div class="contact">
+                <h1>Contact Me</h1>
+                <!--Name-->
+                <div class="">
+                    <label for="name" class="form-label m-4 p-1">Name:</label>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Type your Name here">
+                </div>
             </div>
+            <!--Email Address-->
+            <div class="form-group">
+                <label for="email" class="form-label m-4 p-1">Email address</label>
+                <div class="input-group-prepend"></div>
+                <input name="email" type="email" class="form-control m-auto p-auto" id="email" placeholder="name@example.com">
             </div>
-    </form>
+            <!--Subject-->
+            <div class="form-group">
+                <label for="subject" class="form-label m-4 p-1">Subject</label>
+                <div class="input-group-prepend"></div>
+                <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <!--Message-->
+            <div class="form-group">
+                <label for="message" class="form-label m-4 p-auto">Your message to me</label>
+                <div class="input-group-prepend"></div>
+                <textarea name="message" class="form-control" id="message" placeholder="Your Message (2000 characters max)" rows="3"></textarea>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LepxnoeAAAAAOjLnZMfIdJIsmO0gHn7LWAli1up"></div>
+            <!--Button-->
+            <div class="col-auto">
+                <div id="output-area">
+                    <button type="submit" class="btn btn-primary mb-3">SUBMIT!</button>
+                    <button type="reset" class="btn btn-primary mb-3">RESET</button>
+                </div>
+            </div>
+        </form>
     </div>
 
 </section>-->

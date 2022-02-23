@@ -35,10 +35,7 @@ body {
 .contact-me {
     display: grid;
 }
-.img{
+img{
     height: 200px;
     width: auto;
-}
-.experience{
-
 }

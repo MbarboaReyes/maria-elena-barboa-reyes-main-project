@@ -19,13 +19,13 @@ body {
 
 /*skill container*/
 .skills{
-    color: black;
+    color: white;
     /*margin: auto;*/
-    text-align: left;
-
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
 }
 .my-head{
-    border: 3px solid black;
+
 }
 
 .horse {
